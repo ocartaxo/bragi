@@ -1,0 +1,13 @@
+<RollingFile
+        name="rollingFile"
+        fileName="${LOG_DIR}/application.log"
+        filePattern="${LOG_DIR}/application.%d{dd-MMM}.log.gz"
+        ignoreExceptions="false">
+    <PatternLayout>
+        <Pattern>%d{yyyy-MM-dd HH:mm:ss} %-5p %m%n</Pattern>
+    </PatternLayout>
+    <Policies>
+        <TimeBasedTriggeringPolicy filePattern="${LOG_DIR}/application.%d{dd-MMM-hh}.log.gz" />
+    </Policies>
+    <DefaultRolloverStrategy max="5" />
+</RollingFile>

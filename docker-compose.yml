@@ -1,0 +1,13 @@
+services:
+  rabbitmq:
+    image: rabbitmq:3-management
+    container_name: rabbitmq_container
+    restart: always
+    ports:
+      - 5672:5672       # AMQP_SERVER:DOCKER_RABBIT_MQ
+      - 15672:15672     # RABBIT_MQ_WEB:DOCKER_RABBIT_MQ_WEB
+    volumes:
+      - ./notifications:/var/lib/rabbitmq
+    environment:
+      - RABBITMQ_DEFAULT_USER=admin
+      - RABBITMQ_DEFAULT_PASS=admin
