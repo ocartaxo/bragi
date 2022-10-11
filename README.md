@@ -8,7 +8,7 @@
 
 
 <!-- Inserir imagem com a #vitrinedev ao final do link -->
-![](https://via.placeholder.com/1200x500.png?text=imagem+lindona+do+meu+projeto#vitrinedev)
+<img src="logo.png#vitrinedev" alt="bragi">
 
 ## Detalhes do projeto
 
