@@ -15,10 +15,10 @@
 Um sistema para processar notificações sobre o status de assinaturas de usuários de uma plataforma de </i>streaming</i>
 
 ### Arquitetura
-<img src="DesafioFila.png" width="500" height="500">
+<img src="images/DesafioFila.png" width="500" height="500">
 
 ### Modelo do Banco de Dados
-<img src="database_model.png" width="500" height="500">
+<img src="images/database_model.png" width="500" height="500">
 
 
 ### Documentação
