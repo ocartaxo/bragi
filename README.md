@@ -1,6 +1,4 @@
-<!-- Inserir imagem com a #vitrinedev ao final do link -->
 ![bragi logo](images/logo.png#vitrinedev)
-
 
 # Comece por aqui
 
@@ -10,6 +8,8 @@
 | :sparkles: Nome        | **BRAGI**
 | :label: Tecnologias | java, python, maven, poetry, spring boot, rabbitmq, docker, requests, mapstruct, mysql
 
+
+<!-- Inserir imagem com a #vitrinedev ao final do link -->
 
 ## Detalhes do projeto
 
