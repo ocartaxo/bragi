@@ -23,7 +23,7 @@ DEBUG_OPTS := -Xdebug -Xnoagent -Xrunjdwp:transport=dt_socket,server=y,suspend=y
 
 NAME := rabbitmq-subscriptions
 
-BUILD_TOOL := ./mvnw
+BUILD_TOOL := .\mvnw
 
 IMAGE_NAME := rabbitmq_container
 IMAGE_TAG := latest
@@ -32,29 +32,36 @@ DOCKER_HOST_IP := localhost
 DOCKER_HOST_PORT := 5672 15672
 
 
-.PHONY = help setup run clean
+.PHONY = help build run clean
 
 
 .DEFAULT_GOAL = help
 
 
 help:
-	@echo "---------------HELP-----------------"
-	@echo "To setup the project type make setup"
-	@echo "To run the project type make run"
-	@echo "------------------------------------"
+	@echo ---------------HELP-----------------
+	@echo Para rodar o projeto digite "make run"
+	@echo ------------------------------------
+
+# scirpt para enviar mensagens para api rest em spring
+run: build
+	${PYTHON} ${PYTHON_DIR}/notifications_sender.py
 
 
-build:
-	docker-compose up -d
+build: clean
+	@docker-compose down --rmi all
+	@echo levantando o container
+	@docker-compose up -d
+	@echo Container preparado
+
+
+	SET JAVA_HOME=$(JAVA_HOME)
+	@echo Buildando o projeto
 	$(BUILD_TOOL) package
-	$send_messages
 
 
 clean:
-	$(BUILD_TOOL) clean
+	@echo Limpando ambiente
+	@$(BUILD_TOOL) clean install
 
 
-# scirpt para enviar mensagens para api rest em spring
-send_messages:
-	${PYTHON} ${PYTHON_DIR}/notifications_sender.py
