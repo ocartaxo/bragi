@@ -1,7 +1,3 @@
-
-![logo](https://user-images.githubusercontent.com/23222759/195165928-a65bff8e-c134-4ce7-9a8f-34defcc65c6d.png#vitrinedev)
-
-
 # Comece por aqui
 
 
@@ -9,6 +5,9 @@
 | -------------  | --- |
 | :sparkles: Nome        | **BRAGI**
 | :label: Tecnologias | java, python, maven, poetry, spring boot, rabbitmq, docker, requests, mapstruct, mysql
+
+
+![logo](https://user-images.githubusercontent.com/23222759/195165928-a65bff8e-c134-4ce7-9a8f-34defcc65c6d.png#vitrinedev)
 
 
 ## Detalhes do projeto
