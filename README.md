@@ -8,7 +8,7 @@
 
 
 <!-- Inserir imagem com a #vitrinedev ao final do link -->
-<img src="logo.png#vitrinedev" width="2250" height="500" alt="bragi">
+<img src="logo.png#vitrinedev" alt="bragi logo">
 
 ## Detalhes do projeto
 
