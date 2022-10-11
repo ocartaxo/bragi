@@ -16,7 +16,7 @@
 Um sistema para processar notificações sobre o status de assinaturas de usuários de uma plataforma de </i>streaming</i>
 
 ### Arquitetura
-[Fila](https://user-images.githubusercontent.com/23222759/195167677-32e8495d-8d53-4470-a970-41f9f74a61cc.png)
+![Fila](https://user-images.githubusercontent.com/23222759/195167677-32e8495d-8d53-4470-a970-41f9f74a61cc.png)
 
 ### Modelo do Banco de Dados!
 ![modelo](https://user-images.githubusercontent.com/23222759/195167768-9e493992-deaf-4586-93ad-7892c4c7ec86.png)
