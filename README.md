@@ -1,5 +1,6 @@
-# Comece por aqui
+![bragi logo](images/logo.png#vitrinedev)
 
+# Comece por aqui
 
 | :placard: Vitrine.Dev |     |
 | -------------  | --- |
@@ -8,7 +9,6 @@
 
 
 <!-- Inserir imagem com a #vitrinedev ao final do link -->
-![bragi logo](images/logo.png#vitrinedev)
 
 ## Detalhes do projeto
 
