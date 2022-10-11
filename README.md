@@ -8,7 +8,7 @@
 
 
 <!-- Inserir imagem com a #vitrinedev ao final do link -->
-![]()
+![bragi logo](https://user-images.githubusercontent.com/23222759/195041308-d48bd5e2-ba38-4944-bc37-10a3ec3405d6.png#vitrinedev)
 
 ## Detalhes do projeto
 
