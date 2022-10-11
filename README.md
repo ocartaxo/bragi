@@ -1,8 +1,18 @@
 # Comece por aqui
 
-## Descrição
-Trata-se de um sistema que irá receber notificações sobre o status de assinaturas vindas de uma plataforma de
-<i>streaming</i> e realizará as manipulações necessárias conforme as informações passadas.
+
+| :placard: Vitrine.Dev |     |
+| -------------  | --- |
+| :sparkles: Nome        | **BRAGI**
+| :label: Tecnologias | java, python, maven, poetry, spring boot, rabbitmq, docker, requests, mapstruct, mysql
+
+
+<!-- Inserir imagem com a #vitrinedev ao final do link -->
+![](https://via.placeholder.com/1200x500.png?text=imagem+lindona+do+meu+projeto#vitrinedev)
+
+## Detalhes do projeto
+
+Um sistema para processar notificações sobre o status de assinaturas de usuários de uma plataforma de </i>streaming</i>
 
 ### Arquitetura
 <img src="DesafioFila.png" width="500" height="500">
@@ -39,19 +49,7 @@ notificação do tipo `SUBSCRIPTION_CANCELED`, e será necessário atualizar a i
 se a notificação for do tipo `SUBSCRIPTION_RESTARTED`, é necessário mudar o status da notificação de `CANCELED` para `ACTIVE`.
 
 
-### Tecnologias utilizadas
-- Java 17
-- Python 3.9
-- Maven
-- Poetry
-- Spring Boot
-- RabbitMQ
-- Docker
-- Requests
-- Mapstruct
-- MySQL
-
-### Referências
+#### Referências
 
 * [Rabbit MQ com Java Spring Boot](https://youtube.com/playlist?list=PL1OeYyl9zqzHDN67rto7KMtezTLmk1N*K)
 * [Como utilizar o tipo String como `id` em JPA](https://stackoverflow.com/questions/18622716/how-to-use-id-with-string-type-in-jpa-hibernate)
